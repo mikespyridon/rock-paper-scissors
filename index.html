@@ -3,16 +3,53 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  
-  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+  <link rel="stylesheet" href="style.css"/>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Pixelify+Sans&display=swap" rel="stylesheet">
   <title>Rock Paper Scissors</title>
 </head>
 <body>
-  <h1><strong>Rock Paper Scissors</strong></h1>
-    <button class="rock" type="button" value="rock">Rock</button>
-    <button class="paper" type="button" value="paper">Paper</button>
-    <button class="scissors" type="button" value="scissors">Scissors</button>
-  
-    <script src="script.js" defer></script>
+  <div class="container">
+
+    <h1 class="header">
+      Rock Paper Scissors
+    </h1>
+
+    <div class="results-container">
+      <div class="player-container">
+        <h2 class="player-title">
+          Player Score
+        </h2>
+        <div class="player-score">
+          0
+        </div>
+      </div>
+      <div class="computer-container">
+        <h2 class="computer-title">
+          Computer Score
+        </h2>
+        <div class="computer-score">
+          0
+        </div>
+      </div>
+    </div>
+    
+    <div class="result-info">
+      
+    </div>
+
+    <div class="btn-container padding">
+      <button class="rock" type="button" value="rock">Rock</button>
+      <button class="paper" type="button" value="paper">Paper</button>
+      <button class="scissors" type="button" value="scissors">Scissors</button>
+    </div>
+
+    <div class="footer">
+      Copyright @ bindy culkin studios
+    </div>
+
+  </div>
 </body>
 </html>

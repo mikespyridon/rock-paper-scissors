@@ -1,0 +1,80 @@
+* {
+  font-family: 'Pixelify Sans';
+  color: #EEE2DE;
+  text-shadow: 0 0 0.25rem black;
+}
+
+body {
+  background-color: black;
+  font-size: 1rem;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  background-color: #2B2A4C;
+
+  width: 40%;
+  min-width: 800px;
+  min-height: 800px;
+
+  margin: 0 auto;
+  margin-top: 4.25rem;
+
+  border-radius: 1rem;
+}
+
+.header {
+  font-size: 4rem;
+  margin: 0;
+  margin-top: .25rem;
+}
+
+.results-container {
+  border-radius: 1rem;
+  display: flex;
+  justify-content: space-around;
+  background-color: #fafafc;
+  width: 70%;
+  height: 300px;
+}
+
+.player-container,
+.computer-container {
+  display: flex;
+  flex-direction: column;
+  gap: 3.5rem;
+  margin-top: 1.75rem;
+}
+
+.player-title,
+.computer-title {
+  font-size: 1.75rem;
+}
+
+.player-score,
+.computer-score {
+  text-align: center;
+  font-size: 5.5rem;
+  color: #EA906C;
+}
+
+.btn-container {
+  display: flex;
+  gap: 5rem;
+  margin-bottom: 2rem;
+}
+
+.result-info {
+  height: 1em;
+}
+
+button {
+  background-color: #B31312;
+  border: none;
+  border-radius: 1rem;
+  min-width: 6rem;
+  min-height: 4rem;
+}
